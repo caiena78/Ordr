@@ -10,7 +10,7 @@ You will have to add the following environment variables to use the script:
 # USAGE
 From PowerShell, run:  
 
-git clone https://github.com/caiena78/Ordr.git
-cd ordr
+git clone https://github.com/caiena78/Ordr.git <br />
+cd ordr<br />
 ./ordr.ps1
   
