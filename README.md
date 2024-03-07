@@ -8,5 +8,9 @@ This script queries the Ordr API with the clients ip address and returns any inf
     ORDR_PASSWORD    = <Get this from Password Manager>
 
 # USAGE
+  From Powershell run 
+
+  git clone https://github.com/caiena78/Ordr.git
+  cd ordr
   ./ordr.ps1
   
