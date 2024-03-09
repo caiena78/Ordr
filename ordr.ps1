@@ -57,8 +57,6 @@ function Check-EnvironmentVariables {
 
     foreach ($var in $Variables) {
         if (-not (Test-Path "env:$var")) {
-            # throw "Environment variable '$var' does not exist."
-            # Exit 1
             Write-Host " "
             Write-Host " "
             Write-Host  "Environment variable '$var' does not exist."
