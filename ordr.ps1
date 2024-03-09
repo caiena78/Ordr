@@ -1,3 +1,5 @@
+Add-Type -AssemblyName System.Web
+
 function Encode-URL {
     param(
         [string]$baseUrl,
